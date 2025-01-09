@@ -1,7 +1,3 @@
-Aquí tienes el **README.md** para tu proyecto, diseñado para ser claro, profesional y atractivo para tu portafolio:  
-
----
-
 # 🎬 Proyecto de Análisis de la Base de Datos Sakila  
 
 ¡Bienvenido al proyecto de análisis de la base de datos Sakila! Este proyecto utiliza **Python** y **MySQL** para explorar y analizar una base de datos relacional de alquiler de películas, ejecutando múltiples consultas SQL de forma interactiva o automatizada.  
@@ -9,7 +5,7 @@ Aquí tienes el **README.md** para tu proyecto, diseñado para ser claro, profes
 ---
 
 ## 📊 **Descripción del Proyecto**  
-El objetivo de este proyecto es realizar un análisis detallado de la base de datos **Sakila**, un dataset ampliamente utilizado para aprender sobre bases de datos relacionales. Se han desarrollado 22 consultas SQL que responden preguntas de negocio clave, como:  
+El objetivo de este proyecto es realizar un análisis detallado de la base de datos **Sakila**, un dataset ampliamente utilizado para aprender sobre bases de datos relacionales. Se han desarrollado 25 consultas SQL que responden preguntas de negocio clave, como:  
 - ¿Cuántas películas existen para cada categoría?  
 - ¿Qué actores han participado en más de 10 películas?  
 - ¿Cuántas películas de clasificación "PG-13" hay en la base de datos?  
@@ -25,20 +21,18 @@ Este proyecto permite:
 ```plaintext
 📦 sakila-analysis
 │
-├── 📁 queries               # Contiene las 22 consultas SQL como archivos individuales
+├── 📁 queries               # Contiene las 25 consultas SQL como archivos individuales
 │   ├── query_01.sql
 │   ├── query_02.sql
 │   └── ...                 
-│
-├── 📁 data                  # Espacio opcional para un backup de la base de datos Sakila
-│
+││
 ├── 📄 db_connector.py       # Script para la conexión a la base de datos MySQL
 │
 ├── 📄 analysis.py           # Lógica principal para ejecutar las queries (todas o individuales)
 │
 ├── 📄 main.py               # Archivo principal que controla el menú interactivo
 │
-├── 📄 requirements.txt      # Lista de dependencias necesarias (MySQL Connector)
+├── 📄 requirements.txt      # Lista de dependencias necesarias
 │
 ├── 📄 results.txt           # Archivo generado con los resultados de las consultas
 │
@@ -54,8 +48,8 @@ Este proyecto permite:
 
 ### 2. **Clonar el Repositorio:**  
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd sakila-analysis
+git clone <https://github.com/MaPitelli/sakila_data_analysis.git>
+cd sakila_data_analysis
 ```
 
 ### 3. **Instalar las Dependencias:**  
@@ -96,15 +90,19 @@ Resultados de query_01.sql:
 ('ACE GOLDFINGER')
 ('ADAPTATION HOLES')
 ...
-Resultados de query_10.sql:
-Customer ID: 35 | Name: JANE | Surname: DOE | Total Films Rented: 12
+Resultados de query_09.sql:
+(194, 'PG')
+(178, 'G')
+(210, 'NC-17')
+(223, 'PG-13')
+(195, 'R')
 ...
 ```
 
 ---
 
 ## 📦 **Queries Incluidas**  
-Este proyecto incluye **22 consultas SQL** ubicadas en la carpeta `queries`. Algunos ejemplos son:  
+Este proyecto incluye **25 consultas SQL** ubicadas en la carpeta `queries`. Algunos ejemplos son:  
 - `query_01.sql`: Películas únicas en la base de datos.  
 - `query_10.sql`: Cantidad total de películas alquiladas por cada cliente.  
 - `query_20.sql`: Categorías con un promedio de duración superior a 120 minutos.  
@@ -119,11 +117,8 @@ Este proyecto incluye **22 consultas SQL** ubicadas en la carpeta `queries`. Alg
 ---
 
 ## 📧 **Contacto y Créditos**  
-Proyecto desarrollado por **[Tu Nombre]**.  
-📧 Contacto: [Tu Email]  
-📂 LinkedIn: [Tu Perfil de LinkedIn]  
+Proyecto desarrollado por **Maíra Pitelli**.  
+📧 Contacto: mairapitelli@hotmail.com  
+📂 LinkedIn: [Clica aquí para ver mi perfil de LinkedIn](https://www.linkedin.com/in/mairapitelli/)  
 
 ---
-
-## 🎯 **Conclusión**  
-Este proyecto es una demostración completa de habilidades con **Python, SQL y MySQL**, ideal para tu portafolio profesional. No dudes en explorar y mejorar este proyecto con nuevas consultas o integraciones. ¡Buena suerte! 🚀  
