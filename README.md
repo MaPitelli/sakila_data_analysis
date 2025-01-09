@@ -1,6 +1,8 @@
 # 🎬 Proyecto de Análisis de la Base de Datos Sakila  
 
-¡Bienvenido al proyecto de análisis de la base de datos Sakila! Este proyecto utiliza **Python** y **MySQL** para explorar y analizar una base de datos relacional de alquiler de películas, ejecutando múltiples consultas SQL de forma interactiva o automatizada.  
+![sakila_diagram](images/sakila_diagram.png)
+
+Este proyecto utiliza **Python** y **MySQL** para explorar y analizar una base de datos relacional de alquiler de películas, ejecutando múltiples consultas SQL de forma interactiva o automatizada.  
 
 ---
 
@@ -19,8 +21,11 @@ Este proyecto permite:
 
 ## 🗂️ **Estructura del Proyecto**  
 ```plaintext
-📦 sakila-analysis
+📦 sakila_data_analysis
 │
+├── 📁 images                # Imágenes utilizadas en el proyecto
+│   ├── sakila_diagram.png
+│   
 ├── 📁 queries               # Contiene las 25 consultas SQL como archivos individuales
 │   ├── query_01.sql
 │   ├── query_02.sql

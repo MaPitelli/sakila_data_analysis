@@ -12,7 +12,7 @@ def run_single_query():
         print("❌ Por favor ingresa un número válido.")
 
 def main():
-    print("\n📊 Bienvenido al Proyecto de Análisis de Sakila\n")
+    print("\n📊 Bienvenida al Proyecto de Análisis de Sakila\n")
     while True:
         print("\nOpciones:")
         print("1. Ejecutar todas las queries y guardar resultados en results.txt")

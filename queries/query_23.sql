@@ -1,4 +1,4 @@
--- 23. Encuentra el nombre y apellido de los actores que no han actuado en ninguna película de la categoría "Horror". Utiliza una subconsulta para encontrar los actores que han actuado en películas de la categoría "Horror" y luego exclúyelos de la lista de actores.
+-- 23. Encuentra el nombre y apellido de los actores que no han actuado en ninguna película de la categoría "Horror".
 SELECT ac.first_name, ac.last_name
 FROM actor AS ac
 WHERE actor_id NOT IN (SELECT DISTINCT a.actor_id 

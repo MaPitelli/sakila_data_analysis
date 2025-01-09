@@ -37,6 +37,12 @@ def run_all_queries():
 def list_queries():
     query_folder = 'queries/'
     queries = sorted([f for f in os.listdir(query_folder) if f.endswith('.sql')])
+    
+    print("Selecciona una consulta para ejecutar:")
     for index, query in enumerate(queries):
-        print(f"{index + 1}. {query}")
+        query_path = os.path.join(query_folder, query)
+        with open(query_path, 'r', encoding='utf-8') as file:
+            first_line = file.readline().strip()  # Lee solo la primera línea del archivo
+        print(f"{first_line}")  # Imprime la primera línea como descripción
+
     return queries
