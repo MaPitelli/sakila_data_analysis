@@ -53,7 +53,7 @@ Este proyecto permite:
 
 ### 2. **Clonar el Repositorio:**  
 ```bash
-git clone <https://github.com/MaPitelli/sakila_data_analysis.git>
+git clone https://github.com/MaPitelli/sakila_data_analysis.git
 cd sakila_data_analysis
 ```
 
